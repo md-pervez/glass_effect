@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./big_pic05.jpg);
+    background-size: 100% 100%;
+    font-family: Arial, sans-serif;
+}
+.conteinar{
+    background-color: rgb(255, 255green, 255blue,0.15);
+    border-radius: 20px;
+    padding: 30px;
+    width: 400px;
+    box-shadow: 0 4px 30px rgb(0,0,0,0.1);
+    border: 1px solid rgb(255,255, 255,0.3);
+    color: white;
+    text-align: center;
+
+}
+.conteinar h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+.input_form{
+     margin-bottom: 20px;
+     position: relative;
+}
+.conteinar .input_form input{
+    width: 77%;
+    padding: 15px 45px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(255,255 green,255 blue,0.2);
+    color: black;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+
+}
+
+.conteinar .input_form input:focus{
+    background: rgb(255, 255,255,0.3);
+    box-shadow: 0 0 10px rgb(255,255,255,0.5);
+
+}
+
+
+.conteinar button{
+    width: 100px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(255, 255,255,0.3);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+
+}
+
+
+/*
+.conteinar .input_form{
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    transform: translateY(-50%);
+    color: rgb(255, 255,255,);
+    
+}
+    .conteinar .input_form label{
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    transform: translateY(-50%);
+    color: rgb(255, 255,255,);
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+
